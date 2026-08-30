@@ -49,8 +49,10 @@ See [`launch_control.ino`](./launch_control.ino) for the full sketch.
 - Replace `delay()`-based timing with `millis()` so button inputs aren't blocked during timed states
 - Fix repeated re-triggering of the launch sequence while throttle is held after brake release
 - Move to an explicit `enum`/`switch` state variable as the FSM scales
-- <img width="1280" height="959" alt="IMG_2915" src="https://github.com/user-attachments/assets/56baa814-cc1f-4c25-8410-fed25a7c018d" />
-( Circled is buttons simulating "brake" and "throttle"
+Circled is buttons simulating "brake" and "throttle"
+
+<img width="1280" height="959" alt="IMG_2915" src="https://github.com/user-attachments/assets/56baa814-cc1f-4c25-8410-fed25a7c018d" />
+Circled is buttons simulating "brake" and "throttle"
 <img width="1280" height="959" alt="IMG_2916" src="https://github.com/user-attachments/assets/3038720a-7b2e-4d5e-8a66-2355eb55bb6d" />
 <img width="1280" height="959" alt="IMG_2917" src="https://github.com/user-attachments/assets/bb585b6c-87a4-49a4-a959-f0ec299538d0" />
 <img width="1280" height="959" alt="IMG_2918" src="https://github.com/user-attachments/assets/8d40efd1-ce8f-42b0-8561-8c98c320fd1e" />
