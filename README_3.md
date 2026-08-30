@@ -36,7 +36,6 @@ This project models that sequence not the real electrical/mechanical systems, bu
 This project was my first time building a real finite state machine a system that's always in exactly one of a defined set of states, moving between them based on timed sequences and button input. Key concepts:
 
 - **State sequencing** using `if` statements gated on button state, rather than a single `enum`/`switch` a simpler implementation of the same underlying FSM concept
-- **Edge detection**: tracking a button's *previous* state to detect the exact moment of a press or release, rather than just its current state — critical for triggering the launch on brake *release*, not on brake being held
 - **LCD control**: `lcd.clear()`, `lcd.setCursor()`, and `lcd.print()` to update status text in sync with each state transition
 - Debugging real syntax and logic bugs independently: mismatched braces, missing `LOW` writes leaving LEDs stuck on, and conditional logic that fired continuously instead of once
 
