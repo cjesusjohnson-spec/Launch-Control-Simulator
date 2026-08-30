@@ -1,3 +1,4 @@
+
 # Tesla Plaid-Inspired Launch Control Simulator (Arduino FSM)
 
 A finite state machine (FSM) built on an Arduino Uno that simulates the launch sequence of Tesla's Model S Plaid "Drag Strip Mode" — including Cheetah Stance preconditioning, a driver-input launch gate, and a triggered launch event. Status is displayed live on a 16x2 LCD alongside LED indicators for each stage.
@@ -48,3 +49,8 @@ See [`launch_control.ino`](./launch_control.ino) for the full sketch.
 - Replace `delay()`-based timing with `millis()` so button inputs aren't blocked during timed states
 - Fix repeated re-triggering of the launch sequence while throttle is held after brake release
 - Move to an explicit `enum`/`switch` state variable as the FSM scales
+<img width="1280" height="959" alt="IMG_2915" src="https://github.com/user-attachments/assets/67bc0754-3281-4c80-b971-2f6925685fa9" />
+<img width="1280" height="959" alt="IMG_2916" src="https://github.com/user-attachments/assets/3038720a-7b2e-4d5e-8a66-2355eb55bb6d" />
+<img width="1280" height="959" alt="IMG_2917" src="https://github.com/user-attachments/assets/bb585b6c-87a4-49a4-a959-f0ec299538d0" />
+<img width="1280" height="959" alt="IMG_2918" src="https://github.com/user-attachments/assets/8d40efd1-ce8f-42b0-8561-8c98c320fd1e" />
+<img width="1280" height="959" alt="IMG_2921" src="https://github.com/user-attachments/assets/28bf2216-bf05-4282-9fb4-48cc3849c0f5" />
