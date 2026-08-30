@@ -41,8 +41,7 @@ This project was my first time building a real finite state machine a system tha
 
 ## Code
 
-See [[`launch_control.ino`](./launch_control.ino](https://github.com/cjesusjohnson-spec/Launch-Control-Simulator/blob/21adbd7a0784722e5c5abfe15c3a0cc72dce2b45/Plaid%20Launch.ino)) for the full sketch.
-
+See Code on "Plaid Launch.ino"
 ## Future improvements
 
 - Replace `delay()`-based timing with `millis()` so button inputs aren't blocked during timed states
